@@ -1,0 +1,53 @@
+.sidenav {
+    padding:1rem ;
+}
+.slide-pic{
+    width: 100%;
+    height: 450px;
+}
+
+
+#mainpage{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+#Contact{
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/backg.jpg") ;
+}
+#content{
+    padding: 1.5rem;
+}
+#rightpart{
+    padding-top: 8rem;
+}
+#leftpart{
+    padding: 8rem;
+  
+    ul{
+        background-color: aliceblue;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    #About{
+        height: auto;
+    }
+    #rightpart{
+        background-color: rgb(251, 251, 240);
+    }
+    #h1text{
+        width: auto;
+        height: auto;
+    }
+}
+
+.card{
+    height: 800px;
+}
+
+
+
+  

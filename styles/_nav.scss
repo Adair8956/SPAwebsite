@@ -1,0 +1,29 @@
+nav.navbar{
+    background-color: rgb(204, 190, 247); 
+}
+
+#navlink{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    color: rgb(46, 36, 84);
+}
+
+#navlink:hover{
+    color: aqua;
+    background-color: rgba(137, 127, 230, 0.499);
+}
+
+.btn-cart{
+    background-color: transparent;
+    position: relative;
+}
+.btn-cart .badge{
+    position: absolute !important;
+    top:0 !important;
+    right:0;
+    color: red;
+    background-color: rgba(243, 242, 250, 0.66);
+    font-size: 0.7rem;
+    border-radius: 50%;
+}
